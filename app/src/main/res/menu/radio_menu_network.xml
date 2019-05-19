@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:title="Mobile data"
+            android:id="@+id/mobile_data"
+            />
+        <item
+            android:title="Wifi Netwoek"
+            android:id="@+id/wifi_network"/>
+        <item
+            android:title="Blutooth Connection"
+            android:id="@+id/bluetooth"/>
+    </group>
+
+</menu>

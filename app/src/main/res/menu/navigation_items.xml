@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/facebook"
+            android:title="Facebook"
+            android:checkable="true"
+            android:icon="@drawable/timer"
+            />
+        <item
+            android:id="@+id/book"
+            android:title="Book"
+            android:checkable="true"
+            android:icon="@drawable/bin"
+            />
+        <item
+            android:id="@+id/bathroom"
+            android:title="Bathroom"
+            android:checkable="true"
+            android:icon="@drawable/bathroom"
+            />
+        <item
+            android:id="@+id/search"
+            android:title="Search"
+            android:checkable="true"
+            app:showAsAction="ifRoom|collapseActionView"
+            android:icon="@drawable/ic_search"
+            app:actionViewClass="android.support.v7.widget.SearchView" />
+        <item
+            android:id="@+id/pendrive"
+            android:title="Pendrive"
+            android:checkable="true"
+            android:icon="@drawable/pendrive"
+            />
+        <item
+            android:id="@+id/teamword"
+            android:title="Team Work"
+            android:checkable="true"
+            android:icon="@drawable/teamwork"
+            />
+    </group>
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:title="Facebook"
+            android:checkable="true"
+            android:icon="@drawable/timer"
+            />
+        <item
+            android:title="Book"
+            android:checkable="true"
+            android:icon="@drawable/bin"
+            />
+        <item
+            android:title="Bathroom"
+            android:checkable="true"
+            android:icon="@drawable/bathroom"
+            />
+        <item
+            android:title="Cycle"
+            android:checkable="true"
+            android:icon="@drawable/cycle"
+            />
+        <item
+            android:title="Pendrive"
+            android:checkable="true"
+            android:icon="@drawable/pendrive"
+            />
+        <item
+            android:title="Team Work"
+            android:checkable="true"
+            android:icon="@drawable/teamwork"
+            />
+    </group>
+
+    <item
+        android:title="Title 1"
+        android:checkable="true"
+        >
+
+        <menu>
+
+            <item
+                android:title="Facebook"
+                android:checkable="true"
+                android:icon="@drawable/timer"
+                />
+            <item
+                android:title="Book"
+                android:checkable="true"
+                android:icon="@drawable/bin"
+                />
+            <item
+                android:title="Bathroom"
+                android:checkable="true"
+                android:icon="@drawable/bathroom"
+                />
+            <item
+                android:title="Cycle"
+                android:checkable="true"
+                android:icon="@drawable/cycle"
+                />
+            <item
+                android:title="Pendrive"
+                android:checkable="true"
+                android:icon="@drawable/pendrive"
+                />
+            <item
+                android:title="Team Work"
+                android:checkable="true"
+                android:icon="@drawable/teamwork"
+                />
+        </menu>
+    </item>
+</menu>
